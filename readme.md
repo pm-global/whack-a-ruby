@@ -2,9 +2,14 @@
 
 ## About
 
-This is a simple "whack-a-mole" style javascript game. The game was originally suggested in a Launch School Game Jam tutorial by Katarina Rosiak.
+This is a simple "whack-a-mole" style javascript game. 
+
+The game was originally suggested in a Launch School Game Jam tutorial by Katarina Rosiak.
+
 Thanks Katarina!
+
 https://github.com/katarinarosiak
+
 https://www.launchschool.com
 
 ## Usage

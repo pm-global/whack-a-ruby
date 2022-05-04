@@ -1,4 +1,4 @@
-# Quiz2Cards
+# whack-a-ruby
 
 ## About
 

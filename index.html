@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #gameScreen {
+        border: 1px solid black;
+        cursor: none;
+      }
+    </style>
+    <title>Whack A Ruby</title>
+  </head>
+
+  <body>
+    <div id="new"></div>
+    <canvas id="gameScreen" width="750" height="750">
+      <img src="assets/ruby.png" id="ruby" width="50" />
+      <img src="assets/hammer.png" id="hammer" width="50" />
+    </canvas>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

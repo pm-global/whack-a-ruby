@@ -1,29 +1,36 @@
-# whack-a-ruby
+# Whack-A-Ruby
 
-## About
+Whack-A-Ruby is a simple browser-based game where you can test your reflexes by whacking as many ruby gems as you can within the given time. It's a fun way to practice JavaScript and game development concepts.
 
-This is a simple "whack-a-mole" style javascript game. 
+This sample code was provided during a Launch School Code Jam, and was developed with sample code from Katarina Rosiak.
 
-The game was originally suggested in a Launch School Game Jam tutorial by Katarina Rosiak.
-
-Thanks Katarina!
-
+Katarina's github:
 https://github.com/katarinarosiak
+Launch School interview with Katarina
+https://www.youtube.com/watch?v=MdR_8tCd0B8
 
-https://www.launchschool.com
 
-## Usage
+## Features
 
-1. Clone the repo
-2. Access index.html from a browser
+- **Scoreboard:** Keep track of your hits, longest combo, and total score.
+- **Combo Streaks:** Consecutive hits increase your combo streak, earning you bonus points.
+- **Responsive Controls:** Use both mouse and keyboard for a dynamic gaming experience.
+- **Interactive Elements:** Smash the ruby gems and watch your score grow.
 
-## Documentation
+## How to Play
 
-_Scoring_
+1. **Mouse Controls:**
+   - Move the hammer with your mouse.
+   - Click on the ruby gem to whack it.
 
-- Each ruby hit awards 100 points.
-- A streak of consecutive ruby hits without a miss increases the combo.
-- Extending the combo past the previous record awards streak^3 points.
-- Scores and streaks reset when the page is refreshed
+2. **Keyboard Controls:**
+   - Arrow keys to move the hammer.
+   - Spacebar to whack the ruby.
 
-## Please comment to the repo with a screenshot of your high score and streak!
+3. **Scoring:**
+   - Each hit scores 100 points.
+   - Combo streaks and longest combo add bonus points.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

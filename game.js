@@ -79,7 +79,8 @@ let scoreboard = {
     this.comboCounter = 0;
   },
   draw() {
-    //using offsets from the const allows the board to be moved easily
+    //using offsets from the const allows the board to be moved
+    //without repositioning the contents
     context.strokeRect(...SCOREBOARD_DIMENSIONS);
     context.fillText(
       `Combo ${this.comboCounter}`,
